@@ -95,8 +95,8 @@
                         <i class="menu-caret zmdi zmdi-hc-sm zmdi-chevron-right"></i>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../default/index.html"><span class="menu-text">Personel Ekle</span></a></li>
-                        <li><a href="../topbar/index.html"><span class="menu-text">Personel Listesi</span></a></li>
+                        <li><a href="<?php echo base_url("users"); ?>"><span class="menu-text">Personel Listesi</span></a></li>
+                        <li><a href="<?php echo base_url("users/new_form"); ?>"><span class="menu-text">Personel Ekle</span></a></li>
                     </ul>
                 </li>
 
@@ -107,8 +107,8 @@
                         <i class="menu-caret zmdi zmdi-hc-sm zmdi-chevron-right"></i>
                     </a>
                     <ul class="submenu">
-                        <li><a href="../default/index.html"><span class="menu-text">Firma Ekle</span></a></li>
-                        <li><a href="../topbar/index.html"><span class="menu-text">Firma Listesi</span></a></li>
+                        <li><a href="<?php echo base_url("company"); ?>"><span class="menu-text">Firma Listesi</span></a></li>
+                        <li><a href="<?php echo base_url("company/new_form"); ?>"><span class="menu-text">Firma Ekle</span></a></li>
                     </ul>
                 </li>
 
@@ -120,8 +120,8 @@
                     </a>
                     <ul class="submenu">
                         <li><a href="../default/index.html"><span class="menu-text">Menü Ayarları</span></a></li>
-                        <li><a href="../topbar/index.html"><span class="menu-text">Yetki Listesi</span></a></li>
-                        <li><a href="../topbar/index.html"><span class="menu-text">Yetki Ekle</span></a></li>
+                        <li><a href="<?php echo base_url("user_roles"); ?>"><span class="menu-text">Yetki Listesi</span></a></li>
+                        <li><a href="<?php echo base_url("user_roles/new_form"); ?>"><span class="menu-text">Yetki Ekle</span></a></li>
                     </ul>
                 </li>
 
