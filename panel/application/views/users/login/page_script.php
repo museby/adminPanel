@@ -1,0 +1,1 @@
+<script src="<?php echo base_url("assets"); ?>/assets/js/users.js"></script>
